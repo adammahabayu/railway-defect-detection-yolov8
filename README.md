@@ -61,15 +61,15 @@ Validation and test results come from different data splits and should not be co
 
 ## Evaluation Artifacts
 
-The test evaluation generated the following artifacts:
+The YOLOv8n test evaluation generated the following artifacts:
 
-- `baseline_metrics.csv` — summary of the YOLOv8n test metrics.
+- `baseline_metrics.csv` — summary of the test metrics.
 - `confusion_matrix.png` — confusion matrix.
 - `confusion_matrix_normalized.png` — normalized confusion matrix.
 - `BoxPR_curve.png` — precision-recall curve.
 - `BoxF1_curve.png` — F1-confidence curve.
 
-These files are currently stored in the `final_test_yolov8n_recheck` evaluation output folder in Google Drive. They are not necessarily included in this GitHub repository.
+These files are currently stored in the `final_test_yolov8n_recheck` evaluation output folder in Google Drive. They are not included in this repository unless uploaded separately.
 
 ## Limitations
 
@@ -97,10 +97,12 @@ To reproduce the experiment:
 3. Configure the dataset and model-weight paths.
 4. Run the notebook cells in order.
 
-For a reproducible comparison, also record the software versions, training configuration, dataset version, and random seed where available.
+For a more reproducible comparison, also record the software versions, training configuration, dataset version, and random seed where available.
 
 ## License
 
 The project code and notebook are licensed under the MIT License. See [LICENSE](LICENSE).
 
-The dataset is distributed separately under its own license. Refer to the original [Mendeley Data record](https://data.mendeley.com/datasets/88sh5y3tmj/1) and the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) for dataset terms and attribution.
+Copyright (c) 2026 Adam Mahabayu Muhibbulloh.
+
+The dataset is distributed separately under its own license. Please refer to the original [Mendeley Data record](https://data.mendeley.com/datasets/88sh5y3tmj/1) and the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) for dataset terms and attribution.
