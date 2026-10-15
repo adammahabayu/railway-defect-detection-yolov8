@@ -1,0 +1,6 @@
+ultralytics
+PyYAML
+matplotlib
+pandas
+opencv-python
+Pillow
