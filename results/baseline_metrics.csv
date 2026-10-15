@@ -1,0 +1,8 @@
+Model,YOLOv8n
+Dataset split,test
+Test images,300
+Labeled instances,1494
+Precision,0.4886
+Recall,0.5127
+mAP50,0.4707
+mAP50-95,0.1858
