@@ -22,7 +22,7 @@ This project uses the **Multi-class defects in railway tracks** dataset.
 - **Version:** 1
 - **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-Please refer to the original dataset record for the dataset authors, recommended citation, attribution requirements, and license terms.
+Please refer to the original dataset record for dataset authorship, recommended citation, attribution requirements, and license terms.
 
 The current model labels are represented as `defect_0` to `defect_9`. Their semantic mapping has not yet been independently verified, so these labels should not be interpreted as specific defect types without further verification.
 
@@ -99,7 +99,7 @@ These artifacts correspond to the YOLOv8n test-set evaluation. The plots and CSV
 
 ## Repository Contents
 
-- `railway_defect_detection_yolov8_baseline_clean.ipynb` — organized notebook for the baseline experiment. Confirm that this filename matches the actual notebook in the repository.
+- `railway_defect_detection_yolov8_baseline.ipynb` — notebook for the baseline experiment.
 - `results/` — evaluation plots and test-set metrics.
 - `README.md` — project overview, dataset information, methodology, and results.
 - `LICENSE` — license for the project code and notebook.
@@ -120,7 +120,7 @@ The notebook currently uses Google Drive paths for the dataset and model weights
 To reproduce the experiment:
 
 1. Obtain the dataset from the source linked in the Dataset section and follow its license terms.
-2. Open the notebook in Google Colab or a compatible Python environment.
+2. Open `railway_defect_detection_yolov8_baseline.ipynb` in Google Colab or a compatible Python environment.
 3. Install the required packages, including Ultralytics and PyYAML, using compatible versions.
 4. Configure the dataset and model-weight paths for your environment.
 5. Run the notebook cells in order.
